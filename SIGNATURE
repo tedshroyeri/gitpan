@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 24b4b5566c8fd2ff3ba59386928724a508a8c2eb Changes
+SHA1 95414868180ac95d304c996ca5ec78272c038ee4 LICENSE
+SHA1 40cf88573c062e51d0862cff495e495752bf134c MANIFEST
+SHA1 d395b1d4c33c4de5de2be6c3f7adf5af8981eabd META.json
+SHA1 9bc0b92aa33638079101b1eefd5061d700c6679a META.yml
+SHA1 6cb66babc3e7bce840f46ad88be2c9ec2e8502fe Makefile.PL
+SHA1 1097b2bf53d9559d8af932af18319b97f0f8bb91 README
+SHA1 c57afe2e11d1073edb7a977dd7be674c00e256db dist.ini
+SHA1 01159ef1ea8324dd9831bab22cf5ff99399c5924 lib/HTML/FormHandlerX/Field/JSON.pm
+SHA1 2a2ef2e752521e4caeb73d56d844ff0fb1320ac3 lib/HTML/FormHandlerX/Field/JSONmulti.pm
+SHA1 05a0234400bede446b577ad3e8cda0792e868334 lib/HTML/FormHandlerX/Field/JavaScript.pm
+SHA1 50027f7d25124b179338d29682ca12c5f53d3773 t/javascript.t
+SHA1 55c98d283d1b99ae1cf88da4272e39bca1749f51 t/json.t
+SHA1 60b3665ff4c8631518262306234a727b6da0c81f t/load.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+iD8DBQFTxV2Xlp+7gMsE0ucRAnyOAKCCBTklWBzUE+Wp2YDev3pKe/WQLwCfY1rg
+FMB5oZSDo2g2PtHWdR2Py2k=
+=mnyb
+-----END PGP SIGNATURE-----
