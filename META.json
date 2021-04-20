@@ -40,7 +40,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/cngarrison/HTML-FormHandlerX-Field-JavaScript/issues"
@@ -52,6 +52,6 @@
          "web" : "https://github.com/cngarrison/HTML-FormHandlerX-Field-JavaScript"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 
