@@ -1,6 +1,6 @@
 package HTML::FormHandlerX::Field::JSON;
 # ABSTRACT: a script tag which sets a var using JSON C<data>, encoded from perl data supplied via field for L<HTML::FormHandler>.
-$HTML::FormHandlerX::Field::JSON::VERSION = '0.002';
+$HTML::FormHandlerX::Field::JSON::VERSION = '0.003';
 
 use Moose;
 extends 'HTML::FormHandler::Field::NoValue';
@@ -128,7 +128,7 @@ HTML::FormHandlerX::Field::JSON - a script tag which sets a var using JSON C<dat
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 

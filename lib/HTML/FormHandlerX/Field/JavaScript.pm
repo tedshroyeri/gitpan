@@ -1,6 +1,6 @@
 package HTML::FormHandlerX::Field::JavaScript;
 # ABSTRACT: a script tag with javascript code supplied via field for HTML::FormHandler.
-$HTML::FormHandlerX::Field::JavaScript::VERSION = '0.002';
+$HTML::FormHandlerX::Field::JavaScript::VERSION = '0.003';
 
 use Moose;
 extends 'HTML::FormHandler::Field::NoValue';
@@ -80,7 +80,7 @@ HTML::FormHandlerX::Field::JavaScript - a script tag with javascript code suppli
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 

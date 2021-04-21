@@ -29,12 +29,14 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "HTML::FormHandler" => 0,
     "HTML::FormHandler::Moose" => 0,
+    "Test::JSON" => 0,
+    "Test::JavaScript" => 0,
     "Test::More" => 0,
     "strict" => 0,
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -48,6 +50,8 @@ my %FallbackPrereqs = (
   "JSON::MaybeXS" => 0,
   "JavaScript::Minifier::XS" => 0,
   "Moose" => 0,
+  "Test::JSON" => 0,
+  "Test::JavaScript" => 0,
   "Test::More" => 0,
   "namespace::autoclean" => 0,
   "strict" => 0,

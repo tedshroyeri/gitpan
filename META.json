@@ -33,6 +33,8 @@
          "requires" : {
             "HTML::FormHandler" : "0",
             "HTML::FormHandler::Moose" : "0",
+            "Test::JSON" : "0",
+            "Test::JavaScript" : "0",
             "Test::More" : "0",
             "strict" : "0",
             "utf8" : "0",
@@ -52,6 +54,6 @@
          "web" : "https://github.com/cngarrison/HTML-FormHandlerX-Field-JavaScript"
       }
    },
-   "version" : "0.002"
+   "version" : "0.003"
 }
 
