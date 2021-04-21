@@ -1,6 +1,6 @@
 package HTML::FormHandlerX::Field::JavaScript;
 # ABSTRACT: a script tag with javascript code supplied via field for HTML::FormHandler.
-$HTML::FormHandlerX::Field::JavaScript::VERSION = '0.003';
+$HTML::FormHandlerX::Field::JavaScript::VERSION = '0.004';
 
 use Moose;
 extends 'HTML::FormHandler::Field::NoValue';
@@ -35,6 +35,8 @@ sub build_render_method {
 
 	my $set_js_code = $self->set_js_code;
 	$set_js_code ||= "js_code_" . HTML::FormHandler::Field::convert_full_name( $self->full_name );
+	return sub { my $self = shift; $self->wrap_js_code( $self->parent->$set_js_code($self) ); }
+	  if ( $self->parent->has_flag('is_compound') && $self->parent->can($set_js_code) );
 	return sub { my $self = shift; $self->wrap_js_code( $self->form->$set_js_code($self) ); }
 	  if ( $self->form && $self->form->can($set_js_code) );
 	return sub {
@@ -80,7 +82,7 @@ HTML::FormHandlerX::Field::JavaScript - a script tag with javascript code suppli
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 

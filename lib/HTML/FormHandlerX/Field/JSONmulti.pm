@@ -1,6 +1,6 @@
 package HTML::FormHandlerX::Field::JSONmulti;
 # ABSTRACT: a script tag which sets multiple vars using JSON 'data', encoded from list of perl data supplied via field for HTML::FormHandler.
-$HTML::FormHandlerX::Field::JSONmulti::VERSION = '0.003';
+$HTML::FormHandlerX::Field::JSONmulti::VERSION = '0.004';
 
 use Moose;
 extends 'HTML::FormHandlerX::Field::JSON';
@@ -104,7 +104,7 @@ HTML::FormHandlerX::Field::JSONmulti - a script tag which sets multiple vars usi
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 
